@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Task Manager | TaskFlow UI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <h2 class="logo">TaskFlow UI</h2>
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+            <li>
+                <a href="tasks.html">Tasks</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Task Manager Section -->
+
+    <section class="todo-section">
+
+        <div class="page-header">
+
+            <h1>
+                
+                Personal Task Manager
+            </h1>
+        </div>
+
+        <div class="todo-container">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task"
+            >
+
+            <button onclick="addTask()">
+
+                Add Task
+
+            </button>
+
+        </div>
+
+        <!-- Task Messages -->
+
+        <div id="taskMessage"></div>
+
+        <!-- Task List -->
+
+        <ul id="taskList"></ul>
+
+        <!-- Navigation Buttons -->
+
+        <div class="page-links">
+
+            <a href="contact.html"
+               class="btn">
+
+                Contact Page
+
+            </a>
+
+            <a href="index.html"
+               class="btn">
+
+                Back Home
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>
+            TaskFlow UI
+        </h3>
+
+        <p>
+
+            Dynamic Task Management using
+            JavaScript DOM Manipulation
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
